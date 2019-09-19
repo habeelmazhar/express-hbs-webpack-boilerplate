@@ -1,2 +1,1 @@
-require("./public/stylesheets/style.css");
-// require("./public/stylesheets/buttons.css");
+require("./public/stylesheets/style.scss");
