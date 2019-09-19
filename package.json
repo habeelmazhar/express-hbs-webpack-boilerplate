@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "concurrently --kill-others \"webpack --mode production\" \"supervisor -e 'js|css' ./bin/www\"",
-    "start-prod": "NODE_ENV='production' node ./bin/www",
-    "percy": "PERCY_TOKEN='token here' npx percy exec -- node snapshots.js"
+    "start-prod": "NODE_ENV='production' node ./bin/www"
   },
   "dependencies": {
     "connect-mongo": "^3.0.0",
